@@ -31,8 +31,8 @@ async function findPokemonPorNumero(numberOrName) {
           </div>
           <div class="div_info_pokemon">
             <h2>Type: ${pokemon.type}</h2>
-            <p>Height: ${pokemon.height}</p>
-            <p>Weight: ${pokemon.weight}</p>
+            <p>Height: ${pokemon.height/10}m</p>
+            <p>Weight: ${pokemon.weight/100}kg</p>
           </div>
         </section>
       `;
