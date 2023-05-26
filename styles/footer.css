@@ -1,0 +1,19 @@
+:root{
+    --blue: #071B30;
+    --yellow: #F9B500;
+    --red: #8E1C04;
+
+/* change the values below to your chosen font(s) */
+--text-font: 'Love Ya Like A Sister', cursive;
+}
+
+footer{
+    background-color: var(--blue);
+    min-height: 4rem;
+    width: 100%;
+    color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--text-font);
+}

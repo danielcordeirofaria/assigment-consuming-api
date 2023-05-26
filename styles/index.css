@@ -1,0 +1,21 @@
+:root{
+    --blue: #071B30;
+    --yellow: #F9B500;
+    --red: #8E1C04;
+
+/* change the values below to your chosen font(s) */
+--text-font: 'Love Ya Like A Sister', cursive;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    font-family: var(--text-font);
+    color: var(--blue);
+    font-size: 1.2rem;
+}
+

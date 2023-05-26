@@ -1,0 +1,66 @@
+:root{
+    --blue: #071B30;
+    --yellow: #F9B500;
+    --red: #8E1C04;
+
+/* change the values below to your chosen font(s) */
+--text-font: 'Love Ya Like A Sister', cursive;
+}
+
+.sectionsPokemons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black; 
+    border-radius: 20px; 
+    margin: 2rem;
+}
+
+.pokemons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    color: var(--blue);
+    font-family: var(--text-font);
+    flex-direction: column;
+
+}
+
+.div_image_pokemon{
+    border-bottom: 3px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_pokemon{
+    width: 15rem;
+}
+
+.div_title_pokemon{
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 3px solid var(--blue);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.id_pokemon{
+    margin-bottom: 0.5rem;
+}
+
+.div_info_pokemon{
+    margin: 1rem 1rem 0.5rem 1rem;
+}
+
+.div_info_pokemon h2{
+    margin-bottom: 0.5rem;
+}
+
+.div_info_pokemon p{
+    margin-bottom: 0.5rem;
+}

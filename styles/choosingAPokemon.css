@@ -1,0 +1,13 @@
+h1{
+    margin: 2rem;
+}
+
+button{
+    margin-left: 1rem;
+}
+
+.div_pokemon{
+    display: flex;
+    justify-content: center;
+}
+
